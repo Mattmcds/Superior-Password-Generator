@@ -24,13 +24,15 @@ function generatePassword() {
 
   var addUpperCase = window.confirm("Press 'OK' for Upper Case characters or 'CANCEL' to exclude.");
     console.log(addUpperCase);
+   
 
   var addNumbers = window.confirm("Press 'OK' for Numeric characters or 'CANCEL' to exclude.");
     console.log(addNumbers);
-
+   
 
   var addSpecial = window.confirm("Press 'OK' for Special characters or 'CANCEL' to exclude.");
     console.log(addSpecial);
+    
 
   var passwordInput = {
     length: passLength,
@@ -46,7 +48,7 @@ function generatePassword() {
 
 
 // Get references to the #generate element
-var generateBtn = document.querySelector("#generate");
+//var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
